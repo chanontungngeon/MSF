@@ -50,7 +50,7 @@ the regressors, regardless of whether the regressors themselves are correlated w
    - **Answer**: FALSE
    - **Explanation**: Adjusted R² can be negative, especially when adding irrelevant variables or low sample with many regressors
 
-10. Significance level is always less than 1
+10. Significance level (p-value) is always less than 1
     - **Answer**: TRUE
     - **Explanation**: As a probability measure, significance level must be between 0 and 1. Significance level is the probability, below which we can reject the null hypothesis. Since probability cannot exceed one, and we never want to always 
 reject the null. Then, significance level must be set below one. 
